@@ -1,0 +1,70 @@
+# Dependency directories
+node_modules/
+
+# TypeScript compiled output
+dist/
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.inteliplan.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Feature plan output directory
+feature-plans/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# Node.js dependencies
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+.npm/
+.yarn/
+package-lock.json
+yarn.lock
+
+# TypeScript output
+*.tsbuildinfo
+
+# Logs
+logs/
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+.temp/
+
+# Testing
+coverage/
+.nyc_output/
+
+# Miscellaneous
+.cache/
+.project
+.classpath
+.settings/
+*.bak
+*.backup
+*.orig 

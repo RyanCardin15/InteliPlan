@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  inteliplan:
+    build: .
+    container_name: inteliplan
+    volumes:
+      - feature-plans:/app/feature-plans
+    env_file:
+      - .env
+    restart: unless-stopped
+    # If you need to expose a port externally
+    # ports:
+    #   - "8080:8080"
+
+volumes:
+  feature-plans:
+    driver: local 
